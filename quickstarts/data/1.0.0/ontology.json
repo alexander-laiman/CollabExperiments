@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "path": "recordings/participant-001/session-001/session.mcap",
+      "sha256": "e89393b50c89bd13a6304f96e784fcaf2a5c2e1b525699006395344da32ee6da",
+      "bytes": 2383459707
+    }
+  ]
+}

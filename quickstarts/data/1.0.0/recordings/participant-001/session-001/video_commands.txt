@@ -1,0 +1,3 @@
+Use rename.ps1 to prefix 0s to make using ffmpeg easier
+
+ffmpeg -framerate 15 -i "./-ml2-rgb-center/-ml2-rgb-center-%04d.png" -c:v libx264 -pix_fmt yuv420p center_libx264_yuv420.mp4

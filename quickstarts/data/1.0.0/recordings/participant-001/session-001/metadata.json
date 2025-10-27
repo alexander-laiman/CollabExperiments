@@ -1,0 +1,31 @@
+{
+  "session_id": "session-001",
+  "capture_start_timestamp": "2025-09-26T05:05:14.896122Z",
+  "capture_end_timestamp": "2025-09-26T05:06:24.097644Z",
+  "duration_s": 69.201,
+  "duration_ns": 69201522262,
+  "files": {
+    "metadata": {
+      "path": "metadata.json"
+    },
+    "mcap": {
+      "path": "session.mcap",
+      "sha256": "e89393b50c89bd13a6304f96e784fcaf2a5c2e1b525699006395344da32ee6da",
+      "bytes": 2383459707
+    }
+  },
+  "participant": {
+    "id": "participant-001",
+    "demographics": {
+      "dominant_hand": "right",
+      "height_cm": 188
+    }
+  },
+  "calibration": {
+    "device": {
+      "name": "Magic Leap 2",
+      "id": "ML2-001"
+    }
+  },
+  "coverage": {}
+}

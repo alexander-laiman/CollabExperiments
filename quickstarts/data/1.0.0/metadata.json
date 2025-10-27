@@ -1,0 +1,77 @@
+{
+  "dataset_id": "HWC-TEST-1-MINUTE",
+  "dataset_version": "1.0.0",
+  "dataset_description": "HWC-TEST-1-MINUTE is an egocentric video dataset offering 69.2 seconds of domestic-task video spanning 1 scenario (desk tidying) captured by 1 participant across 1 session.",
+  "homepage": "https://github.com/Trace-Labs-HQ/HWC-TEST-1-MINUTE",
+  "releases": [
+    {
+      "dataset_version": "1.0.0",
+      "created_at_timestamp": "2025-09-26T01:07:43.392663Z",
+      "notes": "Initial release"
+    }
+  ],
+  "participants": [
+    {
+      "participant_id": "participant-001",
+      "demographics": {
+        "dominant_hand": "right",
+        "height_cm": 188
+      },
+      "sessions": [
+        {
+          "session_id": "session-001",
+          "participant_id": "participant-001",
+          "capture_start_timestamp": "2025-09-26T05:05:14.896122Z",
+          "capture_end_timestamp": "2025-09-26T05:06:24.097644Z",
+          "duration_s": 69.201,
+          "duration_ns": 69201522262,
+          "files": {
+            "session_root_path": "recordings/participant-001/session-001/",
+            "metadata": {
+              "path": "recordings/participant-001/session-001/metadata.json",
+              "sha256": "433ed943c9a9c55ec868c8497d7e9bf29e8ecad391695b81d5629bc7e8ba525c",
+              "bytes": 691
+            },
+            "mcap": {
+              "path": "recordings/participant-001/session-001/session.mcap",
+              "sha256": "e89393b50c89bd13a6304f96e784fcaf2a5c2e1b525699006395344da32ee6da",
+              "bytes": 2383459707
+            }
+          },
+          "calibration": {},
+          "coverage": {}
+        }
+      ]
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "session-001",
+      "participant_id": "participant-001",
+      "capture_start_timestamp": "2025-09-26T05:05:14.896122Z",
+      "capture_end_timestamp": "2025-09-26T05:06:24.097644Z",
+      "duration_s": 69.201,
+      "duration_ns": 69201522262,
+      "files": {
+        "session_root_path": "recordings/participant-001/session-001/",
+        "metadata": {
+          "path": "recordings/participant-001/session-001/metadata.json",
+          "sha256": "433ed943c9a9c55ec868c8497d7e9bf29e8ecad391695b81d5629bc7e8ba525c",
+          "bytes": 691
+        },
+        "mcap": {
+          "path": "recordings/participant-001/session-001/session.mcap",
+          "sha256": "e89393b50c89bd13a6304f96e784fcaf2a5c2e1b525699006395344da32ee6da",
+          "bytes": 2383459707
+        }
+      },
+      "calibration": {},
+      "coverage": {}
+    }
+  ],
+  "ontology": {
+    "path": "ontology.json",
+    "sha256": "d71e4dc2eee1f06805a87c7c40772513d3a90cdcdb7f9b21efcf6eddb0878e1e",
+    "bytes": 214
+  }
+}
